@@ -27,8 +27,6 @@ import numpy as np
 from typing import List, Dict, Any, Optional, Callable
 from abc import ABC, abstractmethod
 
-
-# 单例模式：全局配置管理
 class ConfigSingleton:
     """
     全局配置管理类，使用单例模式确保配置的一致性
@@ -198,8 +196,7 @@ class ChromaVectorDB:
         # 创建向量项
         item = VectorItem(id, vector, metadata)
         self._items[id] = item
-        
-        # 通知观察者
+
         self._notify_observers("add", {"id": id, "metadata": metadata})
         
         return True
