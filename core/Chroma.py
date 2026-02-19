@@ -1,12 +1,4 @@
 
-import numpy as np
-from typing import List, Dict, Any, Optional, Callable
-from abc import ABC, abstractmethod
-
-class ConfigSingleton:
-    """
-    全局配置管理类，使用单例模式确保配置的一致性
-    """
     _instance = None
     
     def __new__(cls):
