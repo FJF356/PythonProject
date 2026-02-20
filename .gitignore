@@ -1,0 +1,16 @@
+# Obsidian 插件缓存
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 插件数据
+.obsidian/plugins/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
