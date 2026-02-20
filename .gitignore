@@ -1,1 +1,6 @@
 ../.env
+
+# Data files
+data/chroma_data/
+data/*.json
+!data/README.md
